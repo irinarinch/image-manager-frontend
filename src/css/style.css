@@ -1,0 +1,17 @@
+body {
+  margin: 10px; 
+  color: #333;    
+}
+
+.container {
+  width: 600px; 
+  
+}
+
+table {
+  width: 600px;
+  border: 1px solid black;
+  border-radius: 12px;
+  padding: 10px; 
+  margin-bottom: 10px; 
+}
