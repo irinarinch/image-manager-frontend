@@ -7,7 +7,8 @@
     "lint": "eslint .",
     "test": "jest --testPathPattern=./__tests__/ --runInBand",
     "build": "webpack --mode production",
-    "start": "webpack-dev-server --mode development"
+    "start": "webpack-dev-server --mode development",
+    "coverage": "jest --coverage"
   },
   "license": "MIT",
   "devDependencies": {
