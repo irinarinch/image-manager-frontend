@@ -1,43 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>download</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery</title>
 </head>
-
 <body>
-  <table>
-    <tbody>
-      <tr><td class="title">Files:</td></tr>
-      <tr class="file">
-        <td class="name">Streams Standard</td>
-        <td class="size">1,61 Mb</td>
-        <td class="link"><a href="#">Download</a></td>
-      </tr>
-      
-      <tr class="file">
-        <td class="name">Storage Standard</td>
-        <td class="size">303 Kb</td>
-        <td class="link"><a href="#">Download</a></td>
-      </tr>
-
-      <tr class="file">
-        <td class="name">XMLHttpRequest Standart</td>
-        <td class="size">813 Kb</td>
-        <td class="link"><a href="#">Download</a></td>
-      </tr>
-    </tbody>
-  </table>
-  <div>
-    <span class="counter">Downloaded:</span>
-    <span class="counter-num">
-      <span class="num"></span>
-      <span class="unit"></span>
-    </span>
-  </div>
+  <h1>Домашнее задание к занятию "7. Работа с HTTP"</h1>
+  <h2>Image Manager (задача со звёздочкой)</h2>
+  
+  <form class="file-form">
+    <label class="file-label">Drag and drop files here or Click to select</label>
+    <input type="file" accept="image/*" class="file-input">
+  </form>  
+  <div class="images-container"></div>
 </body>
-
 </html>
